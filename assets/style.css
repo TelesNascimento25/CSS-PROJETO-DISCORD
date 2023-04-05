@@ -1,0 +1,148 @@
+@import url(./fonts.css/LuckiestGuy-Regular.ttf);
+
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: 0.5fr repeat(4, 0.75fr) 0.25;
+    grid-template-areas: 
+    "header header"
+    "main-content main-content "
+    "content-1 content-1"
+    "content-2 content-2"
+    "content-3 content-3"
+    "content-4 content-4";
+}
+
+
+.header{
+    background-image: url(./images/Header\ Background.png);
+    grid-area: header;
+    text-align:center;
+    align-content:center;
+    align-items: center;
+    background-repeat:repeat;
+}
+
+.main-content {
+grid-area: main-content;
+text-align:center;
+}
+
+.content-1 {
+grid-area: content-1;
+text-align:center;
+}
+
+.content-2 {
+grid-area: content-2;
+text-align: center;
+}
+
+.content-3 {
+    grid-area: content-3;
+}
+
+.content-4 {
+    background-color: rgba(35, 39, 42, 1);
+    text-align:center;
+    grid-area: content-4;
+    padding: 50px;
+}
+
+
+ #h3-header{
+    color:white;
+    font-size: 1.5rem;
+    font-family:cursive;
+    padding: 5px;
+}
+
+ #p-header{
+    color: white;
+    font-size: 1rem;
+    font-family: Georgia;
+    width: 38%;
+    padding-left: 30%;
+}
+
+.button-1 {
+    border-radius: 30px;
+    border-color: white;
+    margin: 10px;
+
+}
+
+.button-2 {
+    border-radius: 30px;
+    background-color:black;
+}
+
+#h3-main {
+    color: black;
+    font-family: cursive;
+    font-size: 2.5rem;
+
+}
+
+#p-main {
+    font-family: 'Lucida Sans';
+    font-size: 1.2rem;
+}
+    
+.conteudo-principal {
+    display: inline-flex;
+    padding: 20px;
+    flex-direction:row;
+    text-align: center;
+}
+
+.caixinha-do-lado {
+    width: 40%;
+}
+
+.imagem-discord{
+    object-fit: scale-down;
+    margin-left: 10%;
+    width: 40%;
+}
+
+#h3-1 {
+    color: black;
+    font-family: cursive;
+    font-size: 2.5rem;
+}
+
+.caixinha-de-baixo {
+    width: 20%;
+    padding-left: 20%;
+    text-align: center;
+}
+
+#p-1 {
+    font-family: 'Lucida Sans';
+    font-size: 1.2rem;
+}
+
+.caixinha-de-1 {
+    width: 20%;
+    padding-left: 5%;
+    text-align: center;
+}
+
+.conteudo-baixo {
+    padding: 20px;
+    text-align: center;
+}
+
+#p-baixo {
+    font-family: 'Lucida Sans';
+    font-size: 1.2rem;
+    width: 30%;
+    padding-left: 35%;
+}
+
+#h3-baixo {
+    color: black;
+    font-family: cursive;
+    font-size: 2.5rem;
+}
